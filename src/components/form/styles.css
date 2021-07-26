@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.form {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* input,
+select {
+  text-align: left;
+  padding: 0.3rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #a4a4a4;
+  color: #a2a2a2;
+  width: 50%;
+} */
+
+select {
+  background-color: transparent;
+  padding: 0.3rem 0.8rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #a4a4a4;
+  color: #a2a2a2;
+  height: 2rem;
+}
+
+.image-cover {
+  margin: 10px 0 10px 0;
+  max-width: 150px;
+  height: auto;
+}
+
+.text_form {
+  font-size: 20px;
+  color: #000000;
+  max-width: 100%;
+  text-align: center;
+  line-height: 20px;
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .text_form {
+    line-height: 27px;
+    font-size: 17px;
+  }
+  form {
+    width: 300px;
+  }
+}
+.btn-primary {
+  color: white;
+  background-color: #577b0a;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  border-radius: 8px;
+  font-size: x-large;
+  width: 300px;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #577b0a !important;
+}
+.btn-sample:active:focus {
+  color: white;
+  background-color: #577b0a !important;
+  box-shadow: none;
+}
+.button-container {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+.button-align {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  line-height: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.form-step-2 {
+  font-size: 20px;
+  color: #000000;
+  line-height: 35px;
+  margin-top: 35px;
+}
+.form-step-3 {
+  font-size: 16px;
+  color: #000000;
+  line-height: 35px;
+  margin-top: 35px;
+}
+
+.progress {
+  width: 300px;
+  height: 0.55rem;
+  background-color: white;
+}
+.progress-bar {
+  background-color: #577b0a !important;
+}
+.progressbar-align {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+.progressbar-container {
+  margin-top: 75px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+select {
+  background-color: white;
+  /* padding: 2px; */
+  border-radius: 6px;
+}
+
+.day-select {
+  height: 45px;
+}
+.year-select {
+  height: 45px;
+}
+.month-select {
+  height: 45px;
+  width: 160px;
+}
+.main-select {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .month-select {
+    width: 135px;
+  }
+  .main-select {
+    margin-right: 15px;
+  }
+}
+
+form {
+  display: inline-block;
+}
+.form-control {
+  height: 50px;
+  border-radius: 0.25rem;
+}
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 0.2rem;
+  margin-left: -1.75rem;
+}
+input:checked label::after {
+  background-color: #577b0a !important ;
+}
+.btn-last {
+  line-height: 25px;
+}
+.button-text {
+  font-size: 15px;
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.animate-size-one{
+  width: 150px;
+  margin-left: 40px;
+}
+.animate-size-two{
+  width: 150px;
+}
+
+.animate-img{
+   width: 80px; 
+   margin-top: -5px
+}
+
+.animate-description{
+  margin-left: 60px;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .animate-size-one{
+    width: 90px;
+  }
+  .animate-size-two{
+    width: 90px;
+  }
+  .animate-img{
+    width: 60px; 
+    margin-top: -5px
+ }
+ .animation {
+   margin-right: 35px;
+ }
+ .animate-description{
+  margin-left: 28px;
+}
+}
